@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Space Grotesk', Helvetica, sans-serif;
+    @apply antialiased;
+    /* Default typography styles */
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+  
+  p {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  }
+}
+
+@layer components {
+  .font-heading {
+    font-family: 'Space Grotesk', Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  
+  .font-body {
+    font-family: 'Space Grotesk', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .text-default {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  }
+}
